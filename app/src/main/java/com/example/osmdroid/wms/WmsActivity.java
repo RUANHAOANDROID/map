@@ -25,7 +25,7 @@ public class WmsActivity extends AppCompatActivity {
     }
 
     private WMSTileSource getWMSTileSource() {
-        final String[] beyonserver = {getResources().getString(R.string.boyang_wms)};//和田190基图
+        final String[] beyonserver = {getResources().getString(R.string.boyang_wms)};//某地190基图
         WMSTileSource wmsTileSource = new WMSTileSource(
                 "beyonserver",
                 beyonserver,
